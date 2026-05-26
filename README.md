@@ -14,12 +14,6 @@ This Streamlit app turns raw business data into an executive dashboard with KPIs
 - Executive summary generation
 - Business-focused analytics engineering
 
-## LinkedIn Post Hook
-Built an AI-powered Executive Dashboard Assistant that transforms raw Excel exports into KPIs, charts, and executive-ready insights in seconds.
-
-## Fiverr Gig Title
-I will build AI-powered dashboards and automated business reporting workflows.
-
 ## Run
 ```bash
 pip install -r requirements.txt
