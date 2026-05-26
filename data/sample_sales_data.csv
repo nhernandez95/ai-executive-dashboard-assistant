@@ -1,0 +1,13 @@
+OrderDate,Region,Product,Category,UnitsSold,Revenue,Cost
+2026-01-03,North,Alpha Widget,Hardware,42,8400,5100
+2026-01-08,South,Beta Sensor,IoT,31,7750,4300
+2026-01-15,East,Gamma Kit,Hardware,25,5000,3100
+2026-02-02,West,Alpha Widget,Hardware,55,11000,6500
+2026-02-10,North,Beta Sensor,IoT,28,7000,4100
+2026-02-18,South,Delta License,Software,19,9500,1800
+2026-03-05,East,Delta License,Software,22,11000,2100
+2026-03-12,West,Gamma Kit,Hardware,18,3600,2400
+2026-03-24,North,Alpha Widget,Hardware,37,7400,4550
+2026-04-04,South,Beta Sensor,IoT,45,11250,6200
+2026-04-14,East,Delta License,Software,27,13500,2500
+2026-04-22,West,Alpha Widget,Hardware,60,12000,7200
