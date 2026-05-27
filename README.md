@@ -20,7 +20,7 @@ This Streamlit app turns raw business data into an executive dashboard with KPIs
 
 ![Dashboard2](Images/DashboardPreview2.png)
 
-![Dashboard3](Images/DashboardPreview3.ong)
+![Dashboard3](Images/DashboardPreview3.png)
 
 
 ## Run
