@@ -14,6 +14,15 @@ This Streamlit app turns raw business data into an executive dashboard with KPIs
 - Executive summary generation
 - Business-focused analytics engineering
 
+## Dashboard Preview
+
+![Dashboard1](images/DashboardPreview1.png)
+
+![Dashboard2](images/DashboardPreview2.png)
+
+![Dashboard3](images/DashboardPreview3.ong)
+
+
 ## Run
 ```bash
 pip install -r requirements.txt
