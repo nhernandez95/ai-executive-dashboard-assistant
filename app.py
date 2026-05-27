@@ -65,12 +65,11 @@ if "Revenue" in df.columns and "Cost" in df.columns:
     st.subheader("AI-Style Executive Summary")
     top_region = df.groupby("Region")["Revenue"].sum().idxmax() if "Region" in df.columns else "the leading segment"
     top_product = df.groupby("Product")["Profit"].sum().idxmax() if "Product" in df.columns else "the leading product"
-    st.write(f"""
-    **Executive Insight:** Revenue totaled **${revenue:,.0f}** with an estimated profit of **${profit:,.0f}** and margin of **{margin:.1%}**.
+    st.markdown(f"""
+    **Executive Insight:** Revenue totaled **${revenue:,.0f}** with an estimated profit of **${profit:,.0f}** and a margin of **{margin:.1%}**.  
     The strongest revenue contributor was **{top_region}**, while **{top_product}** generated the highest profit impact.
 
-    **Recommended Action:** Prioritize growth campaigns around the highest-margin products, investigate low-profit segments,
-    and automate this reporting flow so leadership receives weekly KPI updates without manual spreadsheet work.
+    **Recommended Action:** Prioritize growth campaigns around the highest-margin products, investigate low-profit segments, and automate this reporting flow so leadership receives weekly KPI updates without manual spreadsheet work.
     """)
 else:
     st.warning("For the full demo, include Revenue and Cost columns or use the sample dataset.")
