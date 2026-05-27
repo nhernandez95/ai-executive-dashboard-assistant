@@ -22,6 +22,8 @@ This Streamlit app turns raw business data into an executive dashboard with KPIs
 
 ![Dashboard3](Images/DashboardPreview3.png)
 
+![Dashboard4](Images/DashboardPreview4.png)
+
 
 ## Run
 ```bash
